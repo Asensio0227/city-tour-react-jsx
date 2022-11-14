@@ -1,0 +1,100 @@
+
+$mainBlack: #222;
+$mainWhite: #fff;
+$mainBlue: #28cab2;
+$mainGreen: #28b380;
+$mainGrey: #ececec;
+$mainPink: #f28cab;
+$mainTransition: all .3s linear;
+$mainSpacing: 2px;
+$mainRadius: .8rem;
+$ffPrimary: "Roboto", sans-serif;
+$ffSecondary: "Open ",sans-serif;
+$Shadow-1: 0 1px 3px 0 rgba(0,0,0,0.1), 0 1px 2px 0 rgba(0,0,0,0.6);
+$Shadow-2: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.6);
+$Shadow-3: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -3px rgba(0,0,0,0.5);
+$Shadow-4: 0 20px 25px -5px rgba(0,0,0,0.1), 0 10px 15px -5px rgba(0,0,0,0.4);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: .875rem;
+  color: $mainBlack;
+  background: $mainWhite;
+  line-height: 1.7;
+  letter-spacing: $mainSpacing;
+}
+ul,
+a {
+  text-decoration: none;
+  list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: capitalize;
+  line-height: 1.4;
+  font-family: $ffPrimary;
+  margin-bottom: 1.25rem;
+}
+h1 {
+  font-size: 3.0441rem;
+  margin-top: 0;
+}
+h2 {
+  font-size: 2.0441rem;
+}
+h3 {
+  font-size: 2rem;
+}
+h4 {
+  font-size: 1.993rem;
+}
+h5 {
+  font-size: 1.0441rem;
+}
+h6 {
+  font-size: 1rem;
+}
+p {
+  font-family: $ffSecondary;
+  margin-bottom: 1.5rem;
+}
+@media screen and (min-width: 768px){
+  h1 {
+  font-size: 3.3rem;
+  margin-top: 0;
+}
+h2 {
+  font-size: 2.2rem;
+}
+h3 {
+  font-size: 2.1rem;
+}
+h4 {
+  font-size: 2rem;
+}
+h5 {
+  font-size: 1.2rem;
+}
+h6 {
+  font-size: 1.2rem;
+}
+body {
+  font-size: 1rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1;
+}
+};

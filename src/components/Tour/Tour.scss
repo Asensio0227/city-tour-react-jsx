@@ -1,0 +1,53 @@
+@import "../../index.scss";
+
+.tour {
+  background: $mainGrey;
+  border-radius: $mainRadius;
+  transition: $mainTransition;
+  box-shadow: $Shadow-2;
+  margin: 1rem 0;
+  &:hover {
+    box-shadow: $Shadow-3;
+  }
+}
+.img-container {
+  position: relative;
+}
+img {
+  width: 100%;
+  border-top-left-radius: $mainRadius;
+  border-top-right-radius: $mainRadius;
+  display: block;
+}
+.close-btn {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  background: transparent;
+  font-size:2rem;
+  transition: $mainTransition;
+  color: $mainGreen;
+  cursor: pointer;
+  opacity: 0;
+  border: transparent;
+}
+.img-container:hover img {
+  opacity: .8;
+}
+.img-container:hover .close-btn{
+  opacity: 1;
+}
+.tour-info {
+  padding: .8rem 1rem;
+} 
+.tour-info h5 {
+  color: $mainGreen;
+  margin-bottom: .2rem;
+}
+.tour-info h6 {
+  color: $mainGreen;
+}
+.caret {
+  font-size: 1rem;
+  color: $mainGreen;
+}

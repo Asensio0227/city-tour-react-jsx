@@ -1,0 +1,37 @@
+@import "../../index.scss";
+
+.tour-list {
+  width: 70vw;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+.section-title {
+  margin: 0 5rem 0 4rem;
+  text-align: center;
+}
+.underline {
+  width: 10rem;
+  height: .5rem;
+  margin-left: auto;
+  margin-right: auto;
+  background: $mainGreen;
+}
+
+@media screen and (min-width: 768px) {
+  .tour-list {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 1.5rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .tour-list {
+    width: 85vw;
+    grid-template-columns: repeat(3,1fr);
+  }
+}
+@media screen and (min-width: 768px) {
+  .tour-list {
+    grid-template-columns: repeat(4,1fr);
+  }
+}

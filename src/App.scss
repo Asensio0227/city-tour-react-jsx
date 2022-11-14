@@ -1,0 +1,54 @@
+@import "./index.scss" ;
+
+main {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+.section {
+  padding: 5rem 0;
+}
+.section-center {
+  width:90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+  .btn-primary {
+    text-align: center;
+    margin: 1rem auto;
+    color: $mainGreen;
+    cursor:pointer;
+    text-transform: capitalize;
+    font-size: 1rem;
+    transition: $mainTransition;
+    display: block;
+    text-decoration: underline;
+    &:hover {
+      color: $mainGrey;
+    }
+  }
+  .btn {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: $mainWhite;
+    transition: $mainTransition;
+    background: $mainBlue;
+    border-radius: $mainRadius;
+    cursor: pointer;
+    padding: .375rem .75rem;
+    &:hover {
+      opacity: .9;
+    }
+  }
+
+@media screen and (min-width: 992px){
+  .section-center {
+    width: 95vw;
+  }
+}
+@media screen and (min-width: 768px){
+  .img {
+    height: 20rem;
+    object-fit: contain;
+  }
+}
